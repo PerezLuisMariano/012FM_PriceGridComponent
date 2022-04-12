@@ -2,8 +2,8 @@
 :root{
     --colorMine   : rgb(22, 22, 22);
     --colorSecond : #fff;
-    --fontMain    : sans-serif;
-    --fontSecond  : sans-serif; 
+    --fontMain    : "Karla", sans-serif;
+    --fontSecond  : "Karla", sans-serif; 
 }
 
 /* DARK MODE BY USER */
@@ -68,7 +68,7 @@ p a {
 
  /* FONT */
  h1,h2,h3,h4,h5,h6,p,span,a,strong,blockquote,i,b,u,em{
-     font-size      : 1em;
+     font-size      : 1rem;
      font-weight    : inherit;
      font-style     : inherit;
      text-decoration: none;
@@ -115,7 +115,7 @@ svg{
 }
 
 /* TYPOGRAPHY  */
-body{
+html{
     /* min-height: 100vh; */
     font-size        : 62.5%; 
     font-family      : var(--fontMain);

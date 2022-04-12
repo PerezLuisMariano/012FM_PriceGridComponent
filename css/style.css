@@ -1,0 +1,143 @@
+:root{
+    /* color */
+    --cyan: hsl(179, 62%, 43%);
+    --cyanDarker: hsl(179, 62%, 38%);
+    --cyanWithOpacity: hsla(179, 62%, 43%, 0.85);
+    --brightYellow: hsl(71, 73%, 54%);
+    --lightGray: hsl(204, 43%, 93%);
+    --grayishBlue: hsl(218, 22%, 67%);
+    --grayishBlueWithOpacity: hsla(218, 22%, 67%,0.3);
+    --withe: rgb(255,255,255);
+    --witheAlpha: rgba(255,255,255, 0.5);
+    --witheAlpha2: rgba(255,255,255, 0.8);
+
+    --fontSizeSmall: 1.4rem;
+    --fontSizeNormal: 1.5rem;
+    --fontSizeBig: 1.6rem;
+    --fontSizeBigger: 2.0rem;
+}
+
+
+/* MAIN */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--lightGray);
+}
+
+
+/* MAIN COMPONENT*/
+main .component{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    max-width: 310px;
+    background-color: var(--withe);
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 5px var(--grayishBlueWithOpacity);
+    overflow: hidden;
+    margin: 50px 0 50px 0;
+}
+
+
+/* MAIN COMPONENT SECTION 1*/
+main .component .sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    max-width: 635px;
+    padding: 35px 25px 30px 25px;
+    gap: 20px;
+}
+main .component .sec1_main-title{
+    font-size: var(--fontSizeBigger);
+    color: var(--cyan);
+    font-weight: 700;
+}
+main .component .sec1_sec-title{
+    font-size: var(--fontSizeBig);
+    color: var(--brightYellow);
+    font-weight: 700;
+}
+main .component .sec1_paragraph{
+    font-size: var(--fontSizeNormal);
+    color: var(--grayishBlue);
+    font-weight: 400;
+    line-height: 22px;
+}
+
+
+/* MAIN COMPONENT SECTION 2*/
+main .component .sec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    background-color: var(--cyan);
+    padding: 30px 25px 30px 25px;
+    gap: 20px;
+}
+main .component .sec2_sec-title{
+    font-size: var(--fontSizeBigger);
+    color: var(--withe);
+    font-weight: 700;
+}
+main .component .sec2_sec-price{
+    display: flex;
+    align-items: center;
+    font-size: 3.5rem;
+    color: var(--withe);
+    font-weight: 400;
+    gap: 10px;
+}
+main .component .sec2_sec-price span{
+    font-size: var(--fontSizeNormal);
+    color: var(--witheAlpha);
+    font-weight: 400;
+}
+main .component .sec2_paragraph{
+    font-size: var(--fontSizeNormal);
+    color: var(--withe);
+    font-weight: 400;
+}
+main .component .sec2_button{
+    font-size: var(--fontSizeNormal);
+    color: var(--withe);
+    font-weight: 700;
+    background-color: var(--brightYellow);
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 1px var(--cyanDarker);
+}
+
+
+/* MAIN COMPONENT SECTION 3*/
+main .component .sec3{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    background-color: var(--cyanWithOpacity);
+    padding: 30px 25px 30px 25px;
+    gap: 20px;
+}
+main .component .sec3_sec-title{
+    font-size: var(--fontSizeBigger);
+    color: var(--withe);
+    font-weight: 700;
+}
+main .component .sec3_list{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+main .component .sec3_list li{
+    font-size: var(--fontSizeSmall);
+    color: var(--witheAlpha2);
+    font-weight: 400;
+}
