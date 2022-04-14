@@ -141,3 +141,64 @@ main .component .sec3_list li{
     color: var(--witheAlpha2);
     font-weight: 400;
 }
+
+@media (min-width: 700px){
+    main .component{
+        width: 85%;
+        max-width: 635px;
+        margin: unset;
+        animation-name: componentAnimation;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes componentAnimation{
+        0%{
+            transform: translateY(15px);
+        }
+	    50%{
+            transform: translateY(0px);
+        }
+	    100%{
+
+        }
+    }
+    
+
+    main .component .sec1{
+        justify-content: center;
+        width: 100%;
+        max-width: 635px;
+        height: 216px;
+        padding: 0 40px 0 40px;
+        gap: 20px;
+    }
+    main .component .sec2{
+        justify-content: center;
+        width: 50%;
+        min-height: 259px;
+        padding: 0 40px 0 40px;
+        gap: 20px;
+    }
+    main .component .sec2_button{
+        transition-property: transform, border-radius;
+        transition-duration: 0.3s;
+        transform: perspective(15px);
+    }
+    main .component .sec2_button:hover{
+        border-radius: 10px;
+        font-size: var(--fontSizeNormal);
+        transform: perspective(15px) translateZ(1px);
+        transition-property: transform, border-radius;
+        transition-duration: 0.3s;
+    }
+
+    main .component .sec3{
+        justify-content: center;
+        width: 50%;
+        min-height: 259px;
+        padding: 0 40px 0 40px;
+        gap: 20px;
+    }
+
+    
+}

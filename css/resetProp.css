@@ -83,7 +83,7 @@ blockquote::before, blockquote::after, q::before,q::after{
 
 /* TEXT SELECTION*/
 ::selection{
-    background-color : var(--colorMine);
+    background-color : hsl(71, 73%, 54%);;
     color            : var(--colorSecond);
 }
 
