@@ -1,7 +1,7 @@
 ## Frontend Mentor - Price Grid Component
 
 ### Screenshot
-![version-desk](design/me/)
+![version-desk](design/mydesign.png)
 
 
 ### Links
