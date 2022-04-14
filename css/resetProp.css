@@ -55,7 +55,7 @@ img, picture, video, iframe, figure{
 
 /* LINKS */
 a {
-    display: block;  
+    display: inline;  
 }
 p a {
     display: inline;
@@ -83,7 +83,7 @@ blockquote::before, blockquote::after, q::before,q::after{
 
 /* TEXT SELECTION*/
 ::selection{
-    background-color : hsl(71, 73%, 54%);;
+    background-color : var(--colorMine);
     color            : var(--colorSecond);
 }
 
